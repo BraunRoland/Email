@@ -28,7 +28,7 @@ namespace Email
 
         public User getFrom()
         {
-            throw new NotImplementedException();
+            return new User("spam@spam.com");
         }
 
         public string getSubject()

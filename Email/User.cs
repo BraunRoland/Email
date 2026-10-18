@@ -48,22 +48,22 @@ namespace Email
             this.hasSpamFilter = !this.hasSpamFilter;
         }
 
-        public string getEmailAdress()
+        public string GetEmailAdress()
         {
             return this.emailAdress;
         }
 
-        public bool getHasSpamFilter()
+        public bool GetHasSpamFilter()
         {
             return this.hasSpamFilter;
         }
 
-        public List<IEmail> getInbox()
+        public List<IEmail> GetInbox()
         {
             return this.inbox;
         }
 
-        public List<IEmail> getSentMessages()
+        public List<IEmail> GetSentMessages()
         {
             return this.sentMessages;
         }
